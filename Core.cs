@@ -154,7 +154,7 @@ namespace SimpleApi.StatelessBackgroundServices
                 await DoWork();
 
                 await Task.WhenAny(Task.Delay(Pause, stoppingToken), Task.Delay(-1, ForceToken.Token));
-#warning лишний код ниже???
+#warning extra code below???
                 ForceToken = new CancellationTokenSource();
             }
         }
