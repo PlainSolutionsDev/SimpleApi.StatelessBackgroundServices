@@ -8,11 +8,12 @@
     <Company>PlainSolutions</Company>
     <Copyright>PlainSolutions (c)</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.8</Version>
+    <Version>1.0.9</Version>
     <Description>Interface IStatelessWorker as background service for IHostedService
 
 Also IServiceCollection extensions</Description>
     <PackageTags>IHostedService</PackageTags>
+    <PackageProjectUrl>https://github.com/PlainSolutionsDev/SimpleApi.StatelessBackgroundServices/</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
