@@ -14,6 +14,7 @@
 Also IServiceCollection extensions</Description>
     <PackageTags>IHostedService</PackageTags>
     <PackageProjectUrl>https://github.com/PlainSolutionsDev/SimpleApi.StatelessBackgroundServices/</PackageProjectUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
