@@ -8,13 +8,13 @@
     <Company>PlainSolutions</Company>
     <Copyright>PlainSolutions (c)</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.9</Version>
+    <Version>1.0.10</Version>
     <Description>Interface IStatelessWorker as background service for IHostedService
 
 Also IServiceCollection extensions</Description>
     <PackageTags>IHostedService</PackageTags>
     <PackageProjectUrl>https://github.com/PlainSolutionsDev/SimpleApi.StatelessBackgroundServices/</PackageProjectUrl>
-	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,5 +23,9 @@ Also IServiceCollection extensions</Description>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
   </ItemGroup>
+
+	<ItemGroup>
+		<None Include="readme.md" pack="true" PackagePath="." />
+	</ItemGroup>
 
 </Project>
